@@ -1,0 +1,28 @@
+#main {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 40%;
+    border-radius: 20px;
+    height: 300px;
+ }
+
+  body {
+    
+    background-image: url(https://wallpaperim.net/_data/i/upload/2014/09/26/20140926296843-2f76f44d-la.jpg);
+    background: cover;
+    color: white;    
+  }
+
+  .User_Name {
+      background-color:  rgba(0, 0, 0, 0.0);
+      color: white;
+  }
+
+  .input-name{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.0);
+    margin-bottom: 15px;
+    width:50%;
+  }

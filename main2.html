@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="icon" href="https://techcommunity.microsoft.com/t5/image/serverpage/image-id/172206i70472167E79B9D0F/image-size/large?v=1.0&px=999" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <style>
+    body {
+      font-family: 'Lato', sans-serif;
+      background-image: url(https://wallpapershome.com/images/pages/pic_h/11473.jpg);
+      background-size: cover;
+    }
+  
+    .overlay {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: rgb(0, 0, 0);
+      background-color: rgba(0, 0, 0, 0.9);
+      overflow-x: hidden;
+      transition: 0.5s;
+    }
+  
+    .overlay-content {
+      position: relative;
+      top: 25%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+    }
+  
+    .overlay a {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 36px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+  
+    .overlay a:hover,
+    .overlay a:focus {
+      color: #f1f1f1;
+    }
+  
+    .overlay .closebtn {
+      position: absolute;
+      top: 20px;
+      right: 45px;
+      font-size: 60px;
+    }
+  
+    @media screen and (max-height: 450px) {
+      .overlay a {
+        font-size: 20px
+      }
+  
+      .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+      }
+    }
+  </style>
+  <body>
+    <div class="row">
+        <div class="col-2">
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"style="font-size:50px">&times;</a>
+            <div class="overlay-content">
+              <a href="#">Share</a>
+              <a href="#">Log out</a>
+              <a href="#">Add chat room</a>
+              <a href="#">Edit Profile</a>
+            </div>
+          
+        </div>
+        <div class="col-10">
+          <div style="text-align: center; background-color:rgba(0, 0, 0, 0.5); width: 20%; margin-left: 600px; height: 100px; border-radius: 30px;">
+            <h1 style="color: white; text-align: center; padding-top: 15px; font-family: 'Caveat', cursive; font-size: 50px; font-weight: 700;">Kwitter</h1>
+          </div>
+        </div>
+      </div>
+    
+      <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+    
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+      </script>
+    
+      
+    
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
